@@ -42,3 +42,9 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Overview of the files in the repository
+* run_docker.sh helps in creating a docker image and running a container
+* upload_docker.sh helps in uploading the docker image created locally to Docker Hub
+* run_kubernetes.sh creates pods and deployment in the kubernetes cluster using the docker image created
+* Dockerfile has the steps to create a docker image
